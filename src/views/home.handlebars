@@ -1,0 +1,23 @@
+<div id="container">
+     {{#each products}}
+ <ul>
+                <li>title: {{this.title}}</li> 
+                <li>description: {{this.description}}</li>
+                <li>code: {{this.code}}</li>
+                <li>price: {{this.price}}</li>
+                <li>status: {{this.status}}</li>
+                <li>stock: {{this.stock}}</li>
+                <li>category: {{this.category}}</li>
+</ul>
+   <div>  <button class="addButton" id="{{this._id}}" onclick="addToCart({{this.name}})">Agregar al carrito</button></div>
+     </br>
+     {{/each}}
+     {{#if hasPrevPage }}
+     <a href="{{prevLink}}"><button>Anterior</button></a>
+     {{/if}}
+     {{#if hasNextPage }}
+      <a href="{{nextLink}}"><button>Siguiente</button></a>
+     {{/if}}     
+</div> 
+
+<script src="/js/cart.js"></script>
