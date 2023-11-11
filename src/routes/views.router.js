@@ -11,10 +11,10 @@ const productManager = new ProductManager(productPath);
 const cartManager = new CartManager();
 
 // Ruta para obtener productos en tiempo real
-router.get("/realtimeproducts", async (req, res) => {
+router.get("/showproducts", async (req, res) => {
     try {
         const products = await productManager.getAll();
-        res.render("realTimeProducts", { products: products });
+        res.render("showproducts", { products: products });
     } catch (error) {
         return res.send({ status: 'error', error: error });
     }

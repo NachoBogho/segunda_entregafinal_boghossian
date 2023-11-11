@@ -1,83 +1,102 @@
 [
-    {
-      "brand": "Samsung",
-      "model": "Galaxy S21",
-      "description": "Smartphone with stunning features",
-      "price": 799.99,
-      "thumbnail": "https://res.cloudinary.com/dxvjohjkl/image/upload/v1682056274/samsung-galaxy-s21-thumbnail.jpg",
-      "code": "S21BLK",
-      "stock": 5,
-      "id": 1
-    },
-    {
-      "brand": "Apple",
-      "model": "iPhone 13",
-      "description": "Latest iPhone with advanced technology",
-      "price": 1099.99,
-      "thumbnail": "https://res.cloudinary.com/dxvjohjkl/image/upload/v1681872964/iphone-13-thumbnail.jpg",
-      "code": "IP13GLD",
-      "stock": 8,
-      "id": 2
-    },
-    {
-      "brand": "Google",
-      "model": "Pixel 6",
-      "description": "Flagship Pixel phone with incredible camera",
-      "price": 899.99,
-      "thumbnail": "https://res.cloudinary.com/dxvjohjkl/image/upload/v1682056346/google-pixel-6-thumbnail.jpg",
-      "code": "PIX6BLU",
-      "stock": 3,
-      "id": 3
-    },
-    {
-      "brand": "OnePlus",
-      "model": "9 Pro",
-      "description": "Premium OnePlus phone with fast performance",
-      "price": 849.99,
-      "thumbnail": "https://res.cloudinary.com/dxvjohjkl/image/upload/v1682056404/oneplus-9-pro-thumbnail.jpg",
-      "code": "OP9PRBLK",
-      "stock": 10,
-      "id": 4
-    },
-    {
-      "brand": "Xiaomi",
-      "model": "Mi 11",
-      "description": "Feature-packed Xiaomi phone with a sleek design",
-      "price": 699.99,
-      "thumbnail": "https://res.cloudinary.com/dxvjohjkl/image/upload/v1682056043/xiaomi-mi-11-thumbnail.jpg",
-      "code": "MI11SIL",
-      "stock": 6,
-      "id": 5
-    },
-    {
-      "brand": "Sony",
-      "model": "Xperia 1 III",
-      "description": "Sony's flagship Xperia with top-notch camera capabilities",
-      "price": 1199.99,
-      "thumbnail": "https://res.cloudinary.com/dxvjohjkl/image/upload/v1682056466/sony-xperia-1-iii-thumbnail.jpg",
-      "code": "X1IIIBLK",
-      "stock": 4,
-      "id": 6
-    },
-    {
-      "brand": "Motorola",
-      "model": "Moto G Power",
-      "description": "Long-lasting battery life in Moto G Power",
-      "price": 299.99,
-      "thumbnail": "https://res.cloudinary.com/dxvjohjkl/image/upload/v1681872886/moto-g-power-thumbnail.jpg",
-      "code": "MGPBLU",
-      "stock": 7,
-      "id": 7
-    },
-    {
-      "brand": "Huawei",
-      "model": "Mate 40 Pro",
-      "description": "Powerful Huawei Mate 40 Pro with impressive features",
-      "price": 1299.99,
-      "thumbnail": "https://res.cloudinary.com/dxvjohjkl/image/upload/v1682056829/huawei-mate-40-pro-thumbnail.jpg",
-      "code": "M40PGRN",
-      "stock": 2,
-      "id": 8
-    }
-  ]
-  
+  {
+    "title": "Sony Xperia 5 III",
+    "description": "Sony's compact flagship with powerful camera features",
+    "price": 1099.99,
+    "thumbnail": "https://example.com/sony-xperia-5-iii-thumbnail.jpg",
+    "code": "X5IIIBLK",
+    "category": "Electronics",
+    "stock": 4,
+    "status": true
+  },
+  {
+    "title": "Motorola Moto G Power",
+    "description": "Long-lasting battery life in Moto G Power",
+    "price": 299.99,
+    "thumbnail": "https://example.com/moto-g-power-thumbnail.jpg",
+    "code": "MGPBLU",
+    "category": "Electronics",
+    "stock": 7,
+    "status": true
+  },
+  {
+    "title": "Huawei Mate 40 Pro",
+    "description": "Powerful Huawei Mate 40 Pro with impressive features",
+    "price": 1299.99,
+    "thumbnail": "https://example.com/huawei-mate-40-pro-thumbnail.jpg",
+    "code": "M40PGRN",
+    "category": "Electronics",
+    "stock": 2,
+    "status": true
+  },
+  {
+    "title": "LG Velvet 5G",
+    "description": "Sleek LG phone with 5G capabilities",
+    "price": 799.99,
+    "thumbnail": "https://example.com/lg-velvet-5g-thumbnail.jpg",
+    "code": "LGV5GBLU",
+    "category": "Electronics",
+    "stock": 6,
+    "status": true
+  },
+  {
+    "title": "Nokia 8.3 5G",
+    "description": "Nokia's 5G-ready smartphone with PureView quad-camera",
+    "price": 899.99,
+    "thumbnail": "https://example.com/nokia-8.3-5g-thumbnail.jpg",
+    "code": "N83BLK",
+    "category": "Electronics",
+    "stock": 3,
+    "status": true
+  },
+  {
+    "title": "Asus ROG Phone 5",
+    "description": "Gaming-centric phone with powerful specifications",
+    "price": 1199.99,
+    "thumbnail": "https://example.com/asus-rog-phone-5-thumbnail.jpg",
+    "code": "ROG5RED",
+    "category": "Electronics",
+    "stock": 5,
+    "status": true
+  },
+  {
+    "title": "BlackBerry KEY2",
+    "description": "Modern BlackBerry with physical keyboard",
+    "price": 599.99,
+    "thumbnail": "https://example.com/blackberry-key2-thumbnail.jpg",
+    "code": "BBKEY2BLK",
+    "category": "Electronics",
+    "stock": 8,
+    "status": true
+  },
+  {
+    "title": "Oppo Find X3 Pro",
+    "description": "Oppo's flagship with vibrant display and powerful camera system",
+    "price": 1099.99,
+    "thumbnail": "https://example.com/oppo-find-x3-pro-thumbnail.jpg",
+    "code": "OFX3PROGLD",
+    "category": "Electronics",
+    "stock": 4,
+    "status": true
+  },
+  {
+    "title": "Google Pixel 6 Pro",
+    "description": "Pro version of Google's flagship Pixel phone",
+    "price": 1199.99,
+    "thumbnail": "https://example.com/google-pixel-6-pro-thumbnail.jpg",
+    "code": "PIX6PROBLK",
+    "category": "Electronics",
+    "stock": 5,
+    "status": true
+  },
+  {
+    "title": "Xiaomi Redmi Note 10",
+    "description": "Budget-friendly Xiaomi phone with impressive features",
+    "price": 349.99,
+    "thumbnail": "https://example.com/xiaomi-redmi-note-10-thumbnail.jpg",
+    "code": "RN10GRN",
+    "category": "Electronics",
+    "stock": 10,
+    "status": true
+  }
+]
